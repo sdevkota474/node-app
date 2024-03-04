@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  node-app:
+    image: node-app:1.1
+    ports:
+      - 8081:8000
+    restart: always
